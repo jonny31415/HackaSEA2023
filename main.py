@@ -96,7 +96,7 @@ while True:
 
         cv2.putText(
             frame,
-            "Is Sleeping?: {}".format(is_sleeping),
+            "Is Sleeping? {}".format(is_sleeping),
             (10, 30),
             cv2.FONT_HERSHEY_SIMPLEX,
             0.7,
@@ -114,7 +114,7 @@ while True:
         )
         cv2.putText(
             frame,
-            "Eyes closed for?: {:.1f}".format(perf_counter() - time_counter),
+            "Eyes closed for: {:.1f}s".format(perf_counter() - time_counter),
             (530, 30),
             cv2.FONT_HERSHEY_SIMPLEX,
             0.7,
